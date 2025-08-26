@@ -42,7 +42,7 @@ const ProductCard = ({ product }) => {
               {product.productName}
             </h4>
             <h5 className="text-sm pt-2 font-semibold tracking-tight text-gray-900">
-              {product.description.substring(0, 75)}...
+              {product.description.substing(0, 75)}...
             </h5>
             <div className="pt-2 ">
               <span className="font-bold px-1 text-red-600">Sizes: </span>
